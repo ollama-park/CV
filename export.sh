@@ -3,4 +3,9 @@ yolo export \
   format=onnx \
   imgsz=640 \
   opset=12 \
-  simplify=True
+  simplify=True \
+  nms=True \
+  conf=0.23 \
+  iou=0.6
+
+  
